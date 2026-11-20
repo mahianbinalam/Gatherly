@@ -1,8 +1,28 @@
-# Gatherly Server
-1. Create a MongoDB Atlas cluster and database user. Allow your IP in Network Access.
-2. Create a Firebase project. In Project Settings > Service accounts, generate a private key.
-3. Copy `.env.example` to `.env`; fill `MONGODB_URI`, `CLIENT_URL`, and `FIREBASE_SERVICE_ACCOUNT` with the full JSON on one line.
-4. Run `npm install`, then `npm run dev`.
-5. Server runs at `http://localhost:5000`.
+﻿# Gatherly Server
 
-Deploy on Render as a Web Service. Build command: `npm install`; Start command: `npm start`. Add all environment variables in Render.
+Express.js backend API for the Gatherly Community Event Management Platform.
+
+## Technologies
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Firebase Admin
+- CORS
+- dotenv
+
+## Setup
+1. Run `npm install`.
+2. Copy `.env.example` to `.env`.
+3. Configure `MONGODB_URI`, `DB_NAME`, `CLIENT_URL`, and `FIREBASE_SERVICE_ACCOUNT`.
+4. Run `npm run dev`.
+
+## Production
+Run `npm start`.
+
+## API Server
+http://localhost:5000
+
+## Deployment
+Deploy as a Render Web Service.
+Build command: `npm install`
+Start command: `npm start`
