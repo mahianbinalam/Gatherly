@@ -30,3 +30,17 @@ Gatherly is a community-driven platform where people can discover local events, 
 ## Author
 
 Mahian Bin Alam
+
+## Project Structure
+
+- `client/` — React frontend application.
+- `server/` — Express backend API.
+
+## Local Development
+
+Start the backend and frontend in separate terminals:
+
+1. Backend: `cd server`, then `npm install` and `npm run dev`.
+2. Frontend: `cd client`, then `npm install` and `npm run dev`.
+
+Make sure both environment files are configured before starting.
