@@ -1,9 +1,23 @@
-# Gatherly Client
-1. Install Node.js.
-2. Open this folder in VS Code.
-3. Run `npm install`.
-4. Copy `.env.example` to `.env` and fill in Firebase web app settings.
-5. Run `npm run dev`.
-6. Run `npm run build` before deployment.
+﻿# Gatherly Client
 
-Enable Email/Password and Google providers in Firebase Authentication. Add your localhost and deployed domains to Firebase Authorized domains.
+React frontend for the Gatherly Community Event Management Platform.
+
+## Technologies
+- React 18
+- Vite
+- React Router
+- Firebase Authentication
+- React Toastify
+- Lucide React
+
+## Setup
+1. Run `npm install`.
+2. Copy `.env.example` to `.env`.
+3. Configure Firebase credentials and `VITE_API_URL`.
+4. Run `npm run dev`.
+
+## Production Build
+Run `npm run build`.
+
+## Development Server
+http://localhost:5173
